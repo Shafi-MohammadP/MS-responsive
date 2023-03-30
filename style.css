@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+
+.main-body {
+    width: 90%;
+    margin: 0 auto 3.5rem;
+
+}
+
+.main-body .logo-style {
+    height: 30px;
+}
+
+.main-body .collapse ul {
+
+    color: black;
+    font-size: small;
+}
+
+.main-body .collapse ul li {
+    color: black;
+}
+
+
+
+/*Carousel */
+
+
+
+/*slide 1*/
+
+.slide1-image {
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    overflow-y: hidden;
+}
+
+.slide1-image .heading-texts {
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
+
+.slide1-image .link-texts {
+    font-size: 1rem;
+}
+
+.slide1-image .person-btn {
+    background-color: #0067b8;
+    padding: 0.5rem 0.5rem;
+    border: none;
+    color: white;
+    font-weight: 700;
+
+
+}
+
+.slide1-image .person-btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.slide1-image .person-btn:hover {
+    background-color: #034f89;
+}
+
+.slide1-image .link-texts {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin-left: 3rem;
+    font-size: 1rem;
+}
+
+.slide1-image .link-texts:hover {
+    text-decoration: underline;
+}
+
+
+/*slide image 2*/
+
+.slide2-image {
+    position: absolute;
+    left: 65%;
+    top: 25%;
+}
+
+.slide2-image .heading-texts {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.slide2-image .new-btn {
+    background-color: #ffb900;
+    color: black;
+    border: none;
+    padding: 0.5rem 0.5rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/*
+.slide2-image h3 {
+    font-size: 2rem;
+}
+*/
+.slide2-image .tab-texts {
+    font-size: 1rem;
+}
+
+
+
+.slide2-image .learn-btn {
+    background-color: #0067b8;
+    color: white;
+    padding: 0.5rem 0.5rem;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+.slide2-image .learn-btn:hover {
+    background-color: #034f89;
+}
+
+main {
+    width: 90%;
+    height: auto;
+    margin-top: 3.5rem;
+    margin-left: 3.5rem;
+
+}
+
+main .card {
+    border: none;
+    width: 18rem !important;
+
+}
+
+main .card-body {
+    padding: 8px 0 !important;
+}
+
+
+
+main .card-body .new-btn {
+    background-color: #ffb900;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+main .card-title {
+    font-size: 25px;
+    overflow-y: hidden;
+}
+
+main a {
+    text-decoration: none;
+    color: #0067b8;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+/*section*/
+
+.ms-section {
+    width: 90%;
+    height: auto;
+    /* height: 40rem; */
+    margin-left: 3.5rem;
+
+
+}
+
+section .shop-now {
+    position: absolute;
+    /* float: right; */
+    margin-top: 15rem;
+    margin-right: 5rem;
+}
+
+section .shop-now button {
+    background-color: #0067b8;
+    padding: 0.5rem 0.5rem;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+section .shop-now button a {
+    text-decoration: none;
+    color: white;
+}
+
+section .shop-now button:hover {
+    background-color: #034f89;
+}
+
+
+.business-section {
+    width: 90%;
+    height: auto;
+    margin-top: 60px;
+    margin-left: 60px;
+
+
+}
+
+.business-section .card-body .new-btn {
+    background-color: #ffb900;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+section .row h2 {
+    margin-left: 10px;
+}
+
+section .row .card {
+    border: none;
+    width: 18rem !important;
+}
+
+section .row .card-body {
+    padding: 8px 0 !important;
+}
+
+section .row .card-title {
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+section .row a {
+    text-decoration: none;
+    color: #0067b8;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+section .row n a:hover {
+    text-decoration: underline;
+}
+
+.social-media {
+    padding: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.social-media p {
+    margin-top: 15px;
+}
+
+.social-media a i {
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+/*footre*/
+
+.add-info {
+    width: 100%;
+    height: auto;
+    background-color: #f2f2f2;
+}
+
+.add-info .row p {
+    padding-top: 40px;
+    padding-left: 70px;
+
+}
+
+.add-info .row ul li {
+    list-style: none;
+    margin-left: 38px;
+
+}
+
+.add-info .row ul li a {
+    text-decoration: none;
+    color: #818181;
+    font-size: 11px;
+}
+
+.add-info .row ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+footer .privacy ul {
+    margin-left: 1.5em;
+}
+
+footer .privacy ul li {
+    list-style: none;
+    display: inline;
+    margin-left: 10px;
+    font-size: 11px;
+
+}
+
+footer .privacy ul li a {
+    text-decoration: none;
+    color: #818181;
+
+}
+
+footer .privacy ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+@media (max-width:376px) {
+    .main-body {
+        margin-left: 2rem;
+        padding: 1rem;
+
+    }
+}
+
+@media (max-width:444px) {
+    .main-body img {
+
+        height: 250px;
+    }
+}
+
+@media (max-width:376px) {
+    main {
+        margin-left: 2rem;
+
+    }
+}
+
+@media (max-width:376px) {
+    .ms-section {
+        margin-left: 1rem;
+        padding: 1rem;
+
+    }
+}
+
+@media (max-width:376px) {
+    .business-section {
+        margin-left: 2rem;
+
+
+    }
+}
